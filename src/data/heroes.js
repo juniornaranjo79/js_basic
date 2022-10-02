@@ -25,5 +25,7 @@ const heroes = [
         owner: 'Marvel'
     },
 ];
-
-const owners = ['DC','Marvel'];
+//exportacion de un solo elemento
+export const owners = ['DC','Marvel'];
+//exportacion por default
+export default heroes;
